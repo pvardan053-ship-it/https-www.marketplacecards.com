@@ -4,9 +4,8 @@ const langData = {
         subtitle: "Премиальная инфографика для Wildberries",
         coverTitle: "Обложка карточки",
         slideTitle: "Слайд",
-        portfolioTitle: "Моё портфолио",
         heroBtn: "Заказать дизайн",
-        orderTitle: "Готовы увеличить продажи?",
+        orderTitle: "Готовы выполнить заказ?",
         ctaText: "Напишите в Telegram и получите профессиональный дизайн",
         orderBtn: "Написать в Telegram"
     },
@@ -34,3 +33,4 @@ function setLang(lang) {
     document.getElementById("ctaText").innerText = langData[lang].ctaText;
     document.getElementById("orderBtn").innerText = langData[lang].orderBtn;
 }
+
